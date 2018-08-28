@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 1
@@ -32,21 +31,6 @@ paths:
       tags:
       - Format
       - Protection
-    patch:
-      summary: Update Formatprotection
-      description: Update formatprotection Update the properties of formatprotection
-        object.
-      operationId: UpdateFormatprotection
-      x-api-path-slug: workbooknamesltnamegtrangeformatprotection-patch
-      parameters:
-      - in: header
-        name: Authorization
-        description: Bearer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Formatprotection
   /workbook/worksheets(&lt;id|name&gt;)/range(&lt;address&gt;)/format/protection:
     get:
       summary: Get Format Protection
@@ -64,21 +48,6 @@ paths:
       tags:
       - Format
       - Protection
-    patch:
-      summary: Update Formatprotection
-      description: Update formatprotection Update the properties of formatprotection
-        object.
-      operationId: UpdateFormatprotection
-      x-api-path-slug: workbookworksheetsltidnamegtrangeltaddressgtformatprotection-patch
-      parameters:
-      - in: header
-        name: Authorization
-        description: Bearer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Formatprotection
   /workbook/tables(&lt;id|name&gt;)/columns(&lt;id|name&gt;)/range/format/protection:
     get:
       summary: Get Format Protection
@@ -96,21 +65,6 @@ paths:
       tags:
       - Format
       - Protection
-    patch:
-      summary: Update Formatprotection
-      description: Update formatprotection Update the properties of formatprotection
-        object.
-      operationId: UpdateFormatprotection
-      x-api-path-slug: workbooktablesltidnamegtcolumnsltidnamegtrangeformatprotection-patch
-      parameters:
-      - in: header
-        name: Authorization
-        description: Bearer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Formatprotection
   /workbook/worksheets(&lt;id|name&gt;)/protection:
     get:
       summary: Get Worksheet Protection
@@ -163,4 +117,3 @@ paths:
       - Worksheet
       - Protection
       - Unprotect
----
